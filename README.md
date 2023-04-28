@@ -1,2 +1,0 @@
-# parolla-app
- 
