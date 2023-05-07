@@ -2,5 +2,10 @@
   "choose-game-mode": "Oyun Modu Seçin",
   "competitive": "Rekabetçi",
   "unlimited": "Limitsiz",
-  "creative": "Yaratıcı"
+  "creative": "Yaratıcı",
+  "question-answer": "Oyuncular tarafından oluşturulmuş soru-cevap setleri",
+  "check-out-rooms": "Hemen odalara bak ya da kendi soru-cevap setini oluştur",
+  "look-rooms": "Odalara bak",
+  "create-room": "Oda oluştur",
+  "recently-rooms": "Son oluşturduğum odalar"
 }

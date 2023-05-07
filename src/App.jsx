@@ -7,6 +7,9 @@ import Competitive from "./pages/Competitive";
 import Unlimited from "./pages/Unlimited";
 import Creative from "./pages/Creative";
 import Header from "./components/Header";
+import Rooms from "./pages/Creative/Rooms";
+import CreateRoom from "./pages/Creative/CreateRoom";
+import MyRooms from "./pages/Creative/MyRooms";
 
 function App() {
   return (
@@ -14,9 +17,12 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Competitive" element={<Competitive />} />
-        <Route path="Unlimited" element={<Unlimited />} />
-        <Route path="Creative" element={<Creative />} />
+        <Route path="competitive" element={<Competitive />} />
+        <Route path="unlimited" element={<Unlimited />} />
+        <Route path="creative" element={<Creative />} />
+        <Route path="creative/rooms" element={<Rooms />} />
+        <Route path="creative/createroom" element={<CreateRoom />} />
+        <Route path="creative/myrooms" element={<MyRooms />} />
       </Routes>
     </div>
   );
