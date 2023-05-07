@@ -10,7 +10,7 @@ function Home() {
   const buttonArray = ["competitive", "unlimited", "creative"];
 
   return (
-    <div className="small-container">
+    <>
       {<LetterCircle letter="P" />}
 
       <h1 className="second-header">{useFormatMessage("choose-game-mode")}</h1>
@@ -22,7 +22,7 @@ function Home() {
           </Link>
         ))}
       </div>
-    </div>
+    </>
   );
 }
 

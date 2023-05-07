@@ -7,5 +7,9 @@
   "check-out-rooms": "Check out the rooms now or create your own Q&A set",
   "look-rooms": "Look at the rooms",
   "create-room": "Create room",
-  "recently-rooms": "Recently created rooms"
+  "recently-rooms": "Recently created rooms",
+  "settings": "Settings",
+  "choose-language": "Choose Language",
+  "okey": "Okey",
+  "cancel": "Cancel"
 }

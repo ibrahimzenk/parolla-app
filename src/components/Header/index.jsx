@@ -1,15 +1,19 @@
-import React from 'react'
-import LanguageIcon from '@mui/icons-material/Language';
-import SettingsIcon from '@mui/icons-material/Settings';
+import React from "react";
+
+import Modal from "../Modal/Modal";
 
 function Header() {
   return (
     <div className="header">
-        <LanguageIcon />
-        <h2>parolla</h2>
-        <SettingsIcon />
+      <Modal buttonName="language" modalTitle="choose-language">
+        Deneme
+      </Modal>
+      <h2>parolla</h2>
+      <Modal buttonName="settings" modalTitle="settings">
+        Settings
+      </Modal>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

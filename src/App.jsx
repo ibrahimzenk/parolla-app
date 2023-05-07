@@ -15,15 +15,17 @@ function App() {
   return (
     <div className="big-container">
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="competitive" element={<Competitive />} />
-        <Route path="unlimited" element={<Unlimited />} />
-        <Route path="creative" element={<Creative />} />
-        <Route path="creative/rooms" element={<Rooms />} />
-        <Route path="creative/createroom" element={<CreateRoom />} />
-        <Route path="creative/myrooms" element={<MyRooms />} />
-      </Routes>
+      <div className="small-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="competitive" element={<Competitive />} />
+          <Route path="unlimited" element={<Unlimited />} />
+          <Route path="creative" element={<Creative />} />
+          <Route path="creative/rooms" element={<Rooms />} />
+          <Route path="creative/createroom" element={<CreateRoom />} />
+          <Route path="creative/myrooms" element={<MyRooms />} />
+        </Routes>
+      </div>
     </div>
   );
 }
