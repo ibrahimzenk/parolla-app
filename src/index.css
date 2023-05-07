@@ -73,6 +73,7 @@ a {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border: solid rgba(58, 16, 16, 0.836) 4px;
+  font-weight: 900;
   font-size: 30px;
   display: grid;
   place-items: center;
@@ -88,4 +89,15 @@ a {
   font-size: 30px;
   color: rgb(78, 78, 78);
   padding: 20px 0px;
+}
+
+.creative-text-container {
+  margin-top: 240px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.creative-text-header {
+  margin-block-end: -16px;
+  color: rgb(26, 147, 228)
 }

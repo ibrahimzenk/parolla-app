@@ -2,5 +2,10 @@
   "choose-game-mode": "Choose Game Mode",
   "competitive": "Competitive",
   "unlimited": "Unlimited",
-  "creative": "Creative"
+  "creative": "Creative",
+  "question-answer": "Question-answer sets created by players",
+  "check-out-rooms": "Check out the rooms now or create your own Q&A set",
+  "look-rooms": "Look at the rooms",
+  "create-room": "Create room",
+  "recently-rooms": "Recently created rooms"
 }
