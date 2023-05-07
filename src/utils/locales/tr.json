@@ -7,5 +7,9 @@
   "check-out-rooms": "Hemen odalara bak ya da kendi soru-cevap setini oluştur",
   "look-rooms": "Odalara bak",
   "create-room": "Oda oluştur",
-  "recently-rooms": "Son oluşturduğum odalar"
+  "recently-rooms": "Son oluşturduğum odalar",
+  "settings": "Ayarlar",
+  "choose-language": "Dil Seçiniz",
+  "okey": "Tamam",
+  "cancel": "İptal"
 }
