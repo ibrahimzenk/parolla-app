@@ -15,7 +15,6 @@ a {
 .big-container {
   width: 800px;
   height: 100vh;
-
   background-color: rgb(240, 240, 240);
   font-family: "Roboto", sans-serif;
   border-right: 1px solid rgb(228, 228, 228);
@@ -39,8 +38,6 @@ a {
   margin-top: 160px;
   padding-left: 32px;
   padding-right: 32px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -53,7 +50,9 @@ a {
   border: 1px lightgrey solid;
   background-color: white;
   padding: 20px;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(78, 78, 78);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -86,6 +85,7 @@ a {
   font-size: 30px;
   display: grid;
   place-items: center;
+
   color: rgba(48, 13, 13, 0.836);
   box-shadow: rgba(165, 21, 21, 0.4) 0px 5px, rgba(165, 21, 21, 0.2) 0px 10px;
 }
@@ -110,3 +110,144 @@ a {
   margin-block-end: -16px;
   color: rgb(26, 147, 228);
 }
+
+.creative-rooms-container {
+  margin-top: -80px;
+}
+
+.creative-rooms-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.creative-rooms-link-input {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin-left: -10px;
+  border: 1px white solid;
+  background-color: white;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.creative-rooms-link-input input {
+  border: 0px;
+  padding: 0.5rem;
+  width: 80%;
+  outline: none;
+}
+.creative-rooms-link-input button {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: rgb(120, 211, 253) 1px solid;
+  background-color: rgb(120, 211, 253);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.creative-rooms-link-input button:hover {
+  cursor: no-drop;
+}
+
+.creative-rooms-second-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.creative-second-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creative-second-part button {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 1px white solid;
+  background-color: white;
+  color: grey;
+}
+
+.creative-search-room {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  margin-left: -10px;
+  border: 1px white solid;
+  background-color: white;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.creative-search-room input {
+  border: 0px;
+  padding: 0.5rem;
+  width: 80%;
+  outline: none;
+}
+
+.creative-room-label-menu {
+  width: 100%;
+  height: 7rem;
+  display:grid;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin-left: -10px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 16px;
+  border: 1px white solid;
+  background-color: white;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.creative-room-label-menu div {
+  font-weight: bold;
+  color: grey;
+}
+
+#label-child1 {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+
+
+

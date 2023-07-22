@@ -17,13 +17,11 @@ function Creative() {
         <h2 className="creative-text-header">{useFormatMessage("question-answer")}</h2>
         <h2 className="creative-text">{useFormatMessage("check-out-rooms")}</h2>
       </div>
-      <div className="creative-button-container">
-        {creativeButtonArray.map((item, index) => (
-          <Link to={item.path}>
-            <ButtonMenu label={useFormatMessage(item.name)} icon={<ArrowForwardIosIcon />} key={index} />
-          </Link>
-        ))}
-      </div>
+      {creativeButtonArray.map((item, index) => (
+        <Link to={item.path}>
+          <ButtonMenu label={useFormatMessage(item.name)} icon={<ArrowForwardIosIcon />} key={index} />
+        </Link>
+      ))}
     </div>
   );
 }
